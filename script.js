@@ -100,7 +100,7 @@ let Result = "";
 		 "&emsp;&emsp;&emsp;&emsp;" +"<span style='float:right'> " + _Addres_Rozgl_calculated + " </span>" + "</p>";
 		max = _Addres_Rozgl_calculated.substr(0, _Addres_Rozgl_calculated.lastIndexOf(".") + 1);
 		//Check last oktet------------------------------------------
-		if (parseInt(_Addres_Rozgl_calculated.substr(_Addres_Rozgl_calculated.lastIndexOf(".") + 1) + diff) < 255) {
+		if (parseInt(_Addres_Rozgl_calculated.substr(_Addres_Rozgl_calculated.lastIndexOf(".") + 1)) + diff < 255) {
 			max += parseInt(_Addres_Rozgl_calculated.substr(pos_dot + 1)) + diff - 1;
 		}
 		else {
