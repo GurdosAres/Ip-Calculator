@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ip Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div style="text-align: center;">
+			<h1 style="padding-top:30px;">Ip Calculator</h1>
+	</div>
+
+	<div class="form">
+	    <div class="ip_cover" id="ip_cover">
+	    	<span class="float_dot"></span>
+	    	<span class="float_dot_1"></span>
+	    	<span class="float_dot_2"></span>
+	        	<input  class="ip" id="ip_input_0" type="text" maxlength="3" required  placeholder="159" >
+				<input class="ip" id="ip_input_1" type="text" maxlength="3" required  placeholder="255" >
+				<input class="ip" id="ip_input_2" type="text" maxlength="3" required  placeholder="186" >
+				<input class="ip" id="ip_input_3" type="text" maxlength="3" required  placeholder="106" >				
+	    </div>	
+	      <div class="submit_cover" >
+	      <input id="maska"type="text" maxlength="2"  required placeholder="1-30">
+		<input type="submit" value="Calculate" id="do_magic">
+	      </div>
+
+		<div id="result">
+			
+
+		</div>
+
+
+
+
+
+	</div>
+
+
+	<script src="script.js"></script>
+</body>
+</html>

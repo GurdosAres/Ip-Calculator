@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.form{
+	width: 500px;
+	height: 25px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 5%;
+}
+html,body{
+	height: 100vh;	
+}
+#maska{
+	width: 30px;
+    height:100%;
+    border:0;
+    border-radius: 2px;
+    outline: 0;
+}
+#do_magic{
+    border:0;
+   height: 100%;
+   cursor: pointer;
+}
+#ip{
+	width: 100px;
+}
+#result{
+	text-align: left;
+}
+.submit_cover{
+    position: relative;
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+    font-size: 0;
+    display: inline-block;
+    height: 100%;
+
+    vertical-align: top;
+}
+.ip{
+    width: 25%;
+    display: inline-block;
+    font-size: 20px;
+    border: 0;
+    height: 100%;
+    text-align: right;
+    outline: none;
+    z-index: 0;
+    
+}
+
+.float_dot{
+
+    position:absolute;
+   top:70%;
+   background-color: black; 
+   width:2px;
+   height:2px;
+   left:26.1%;
+   z-index: 9;
+
+}
+.float_dot_1{
+        position:absolute;
+   top:70%;
+   background-color: black; 
+   width:2px;
+   height:2px;
+   left:51.1%;
+   z-index: 9;
+
+}  
+.float_dot_2{
+        position:absolute;
+   top:70%;
+   background-color: black; 
+   width:2px;
+   height:2px;
+   left:76%;
+   z-index: 9;
+
+}  
+.ip_cover{
+
+    position: relative;
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    display: inline-block;
+    width:155px;
+    vertical-align: top;
+}
+.ip:focus{
+    background-color: rgba(225,225,225,0.6);
+}
