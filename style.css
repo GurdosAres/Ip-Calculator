@@ -4,12 +4,36 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+/*.menu{
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  height: auto;
+}
+.nav{
+  text-align: center;
+  font-size: 0;
+  background-color: #ABB7F7;
+}
+.nav a{
+  display: inline-block;
+  box-sizing: content-box;
+  padding:5px 12px;
+  text-decoration: none;
+  background-color: #ABB7F7;
+  font-size: 24px;
+  color: #4A4F6B;
+}*/
 .form{
-	width: 500px;
 	height: 25px;
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 5%;
+}
+#result{
+  margin: 0 auto;
+  height:500px;
+  width:50%;
 }
 html,body{
 	height: 100vh;	
@@ -20,6 +44,7 @@ html,body{
     border:0;
     border-radius: 2px;
     outline: 0;
+    text-align: center;
 }
 #do_magic{
     border:0;
@@ -48,7 +73,7 @@ html,body{
     font-size: 20px;
     border: 0;
     height: 100%;
-    text-align: right;
+    text-align: center;
     outline: none;
     z-index: 0;
     
@@ -59,9 +84,9 @@ html,body{
     position:absolute;
    top:70%;
    background-color: black; 
-   width:2px;
+   width:1.9px;
    height:2px;
-   left:26.1%;
+   left:24%;
    z-index: 9;
 
 }
@@ -71,7 +96,7 @@ html,body{
    background-color: black; 
    width:2px;
    height:2px;
-   left:51.1%;
+   left:48.5%;
    z-index: 9;
 
 }  
@@ -81,7 +106,7 @@ html,body{
    background-color: black; 
    width:2px;
    height:2px;
-   left:76%;
+   left:73.7%;
    z-index: 9;
 
 }  
@@ -99,4 +124,9 @@ html,body{
 }
 .ip:focus{
     background-color: rgba(225,225,225,0.6);
+}
+
+
+@media (max-width: 320px){
+  
 }

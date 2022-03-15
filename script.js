@@ -320,20 +320,6 @@ maska.onblur = function (){
 	}
 }
 
-/*ip_input.onblur = function (){
-	if(!ValidateIPaddress(ip_input.value)){
-		return;
-	}
-	
-
-	let ip_ = ip_input.value.split('.');
-	for (let i = ip_.length - 1; i >= 0; i--) {
-		ip_[i] = Number(ip_[i]);
-	}
-	ip_input.value = ip_[0] + "." + ip_[1] + "." + ip_[2] + "." + ip_[3];
-
-}*/
-
 function ValidateIPaddress(ipaddress) 
 {
 	let ip = "";
