@@ -177,7 +177,7 @@ body {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
 
     .btn,
     .btn:after {
@@ -189,7 +189,18 @@ body {
         left: 0;
     }
 }
+@media (max-width: 768px) {
 
+    .btn,
+    .btn:after {
+        width: 200px;
+        height: 86px;
+        line-height: 88px;
+        position: absolute;
+        bottom:0;
+        right: 0;
+    }
+}
 .show {
     display: block;
 }
