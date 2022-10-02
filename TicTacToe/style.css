@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+@media screen and (max-width:768px){
+    .cube{
+            width: calc((100vw/2));
+    height: calc(100vw/2);
+    }
+    }
 html,
 body {
     height: 100vh;
