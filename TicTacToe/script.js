@@ -55,15 +55,15 @@ for (var i = 0; i < cells.length; i++) {
             }
             checkWinner = WhoWin(cells_boolen)
             if (checkWinner == "Circle") {
-                winner.innerHTML = "<h1 style='background-color:#EB242A;font-size: 20px;max-width:30%;'>Circle team Win!</h1>";
+                winner.innerHTML = "<h1 style='color:#EB242A;font-size: 20px;max-width:30%;'>Circle team Win!</h1>";
                 circle_score.innerHTML = Number(circle_score.innerHTML) + 1;
 
             } else if (checkWinner == "Cross") {
-                winner.innerHTML = "<h1 style='background-color:#22EB77;font-size: 20px;max-width:30%;'>Cross team Win!</h1>";
+                winner.innerHTML = "<h1 style='color:#22EB77;font-size: 20px;max-width:30%;'>Cross team Win!</h1>";
                 cross.innerHTML = Number(cross.innerHTML) + 1;
 
             } else if (end == 9) {
-                winner.innerHTML = "<h1 style='background-color:#5E5B58;font-size: 20px;max-width:30%;'>Draw!</h1>";
+                winner.innerHTML = "<h1 style='color:#5E5B58;font-size: 20px;max-width:30%;'>Draw!</h1>";
                 draw.innerHTML = Number(draw.innerHTML) + 1;
             }
             if (checkWinner == "Circle" || checkWinner == "Cross" || end == 9) {
