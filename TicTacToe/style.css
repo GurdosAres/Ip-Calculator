@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html,
+body {
+    height: 100vh;
+    font-size: 0;
+}
+
 @media (max-width:768px) {
     .cube {
         width: calc(100vw/1.5) !important;
@@ -10,11 +17,6 @@
         top: 30% !important;
         transform: translateY(-30%) !important;
     }
-}
-html,
-body {
-    height: 100vh;
-    font-size: 0;
 }
 
 .cube {
@@ -27,6 +29,13 @@ body {
     transform: translateY(-50%);
     background-color: #4746E8;
     z-index: 0;
+}
+
+#winner {
+    position: absolute;
+    top: 67%;
+    left: 0;
+    font-size: 20px;
 }
 
 .cube div {
@@ -102,8 +111,7 @@ body {
     --slice-3: inset(10% -6px 85% 0);
     --slice-4: inset(40% -6px 43% 0);
     --slice-5: inset(80% -6px 5% 0);
-
-        animation: 1s glitch;
+    animation: 1s glitch;
     animation-timing-function: steps(2, end);
     content: 'Play Again!';
     display: block;
@@ -191,6 +199,7 @@ body {
         left: 0;
     }
 }
+
 @media (max-width: 768px) {
 
     .btn,
@@ -203,6 +212,7 @@ body {
         right: 1%;
     }
 }
+
 .show {
     display: block;
 }
