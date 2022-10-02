@@ -37,6 +37,15 @@ body {
     left: 0;
     font-size: 20px;
 }
+@media (orientation: landscape) {
+    #winner {
+        position: absolute;
+        top: 100vh;
+        left: 33vw;
+        font-size: 20px;
+    }
+
+}
 
 .cube div {
     position: relative;
