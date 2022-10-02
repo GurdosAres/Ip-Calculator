@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media screen and (max-width:768px){
-    .cube{
-            width: calc((100vw/2));
-    height: calc(100vw/2);
+@media (max-width:768px) {
+    .cube {
+        width: calc(100vw/1.5) !important;
+        height: calc(100vw/1.5) !important;
+        top: 30% !important;
+        transform: translateY(-30%) !important;
     }
-    }
+}
 html,
 body {
     height: 100vh;
