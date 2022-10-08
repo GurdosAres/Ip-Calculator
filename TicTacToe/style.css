@@ -6,7 +6,7 @@
 
 html,
 body {
-    height: 100vh;
+    height: 100%;
     font-size: 0;
 }
 
@@ -33,18 +33,11 @@ body {
 
 #winner {
     position: absolute;
-    top: 95%;
+    bottom: 0;
     left: 0;
+    width: 100%;
+    text-align: center;
     font-size: 20px;
-}
-@media (orientation: landscape) {
-    #winner {
-        position: absolute;
-        top: 100vh;
-        left: 33vw;
-        font-size: 20px;
-    }
-
 }
 
 .cube div {
@@ -62,6 +55,15 @@ body {
 .cube div:nth-child(1) {
     border-left: 4px solid #4746E8;
     border-top: 4px solid #4746E8;
+
+}
+
+@media (orientation: landscape) {
+    #winner {
+        position: absolute;
+        bottom: 0;
+        font-size: 20px;
+    }
 
 }
 
@@ -196,7 +198,7 @@ body {
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 700px) {
 
     .btn,
     .btn:after {
@@ -209,7 +211,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
 
     .btn,
     .btn:after {
